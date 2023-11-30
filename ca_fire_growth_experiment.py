@@ -14,7 +14,7 @@ PROB_GROWTH = 1.0e-5  # probability of new growth per cell per unit time
 PROB_NEW_FIRE = 1.0e-7  # probability of new fire per cell per unit time
 N_TIME_STEP = 100000  # number of time-steps
 VERBOSE = True # set to False to suppress printing
-
+#added on growth
 # run the model
 result = evolve_forest(
     (GRID_N_X, GRID_N_X), N_TIME_STEP, PROB_GROWTH, PROB_NEW_FIRE, verbose=VERBOSE)
