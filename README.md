@@ -2,3 +2,4 @@
 Forest fire simulator for GEOGM0054 exercises
 
 Some of the changes made on this file to work from the remote repository
+This is another batch of changes on the main branch
